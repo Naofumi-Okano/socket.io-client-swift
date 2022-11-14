@@ -3,5 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "SocketIO-Legacy"
+    name: "SocketIO-Legacy",
+    products: [
+        .library(name: "SocketIO-Legacy", targets: ["SocketIO-Legacy"])
+    ]
 )
