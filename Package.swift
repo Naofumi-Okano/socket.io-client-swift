@@ -5,11 +5,11 @@ import PackageDescription
 let package = Package(
     name: "SocketIO-Legacy",
     products: [
-        .library(name: "SocketIO", targets: ["SocketIO-Legacy"])
+        .library(name: "SocketIO", targets: ["SocketIO"])
     ],
     dependencies: [
     ],
     targets: [
-        .target(name: "SocketIO-Legacy"),
+        .target(name: "SocketIO"),
     ]
 )
